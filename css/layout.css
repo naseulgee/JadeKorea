@@ -3,8 +3,6 @@ html { --mainColor: #23b7a5; font-size: 20px; }
 a:hover,
 .color { color: var(--mainColor); }
 .bgColor { background-color: var(--mainColor); color: #fff; }
-.underline { display: inline-block; background: url(../images/underscore_puple.png) center bottom no-repeat; background-size: contain; }
-.color.underline { background-image: url(../images/underscore_yellow.png); }
 
 /* 폰트 */
 h1 { font-size: calc(min(50px, 3vw)); }
