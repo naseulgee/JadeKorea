@@ -4,7 +4,7 @@
 .intro .slogan img { display: block; width: 90%; max-width: 500px; margin: 100px auto; }
 
 /* 스토리 */
-.story { min-height: 40vw; position: relative; top: 0; left: 0; background: url(/pList/jk/intro.jpg) no-repeat center; background-size: cover; color: #fff; text-shadow: 0 0 40px var(--subGray_90); }
+.story { min-height: 40vw; position: relative; top: 0; left: 0; background: url(../images/intro.jpg) no-repeat center; background-size: cover; color: #fff; text-shadow: 0 0 40px var(--subGray_90); }
 .story::after { display: block; content: ""; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: var(--subGray_90); opacity: 0.2; }
 .story .storyWrap { z-index: 1; }
 .story .storyWrap .dot { display: block; transform: translateX(4px); }
