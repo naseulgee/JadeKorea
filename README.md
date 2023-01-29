@@ -6,12 +6,12 @@
 ## 📖 주제: 주제
 <div align="center">
 
-<img alt="제이드코리아 소개 이미지" src=""/>
+<img alt="제이드코리아 소개 이미지" src="https://user-images.githubusercontent.com/73747247/215343567-4a45379d-4bc7-4b9e-8262-02fe2f715fd6.jpg"/>
 
 </div>
 
 ### 프로젝트 목적
-+ 목적
++ 기프트 마케팅 및 판촉물 발행 기업 소개 홈페이지 제작
 <br/>
 
 ## 🛠 사용언어 및 개발 환경
@@ -29,8 +29,8 @@
         <th width="50%">모바일 페이지</th>
     </tr>
     <tr>
-        <td colspan="2"><img alt="메인 이미지" src=""/></td>
-        <td><img alt="모바일 이미지" src=""/></td>
+        <td colspan="2"><img alt="메인 이미지" src="https://user-images.githubusercontent.com/73747247/215342253-e32ffd20-aedc-41c5-a0a3-93a6c6418e69.gif"/></td>
+        <td><img alt="모바일 이미지" src="https://user-images.githubusercontent.com/73747247/215342256-c5cfcca4-ed80-487e-a260-e849d9d46751.gif"/></td>
     </tr>
     <tr>
         <th width="33.33%">연락 페이지</th>
