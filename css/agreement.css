@@ -1,0 +1,5 @@
+/* 약관 */
+.agreeWrap h1 { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--subGray_30); }
+.agreeWrap .txtBox,
+.agreeWrap .txtBox .agree { width: 100%; padding: 20px; border: 1px solid var(--subGray_30); box-sizing: border-box; background-color: #fff; font-size: 16px; }
+.agreeWrap .txtBox { background-color: var(--subGray_5); }
