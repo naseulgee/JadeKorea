@@ -46,14 +46,6 @@ main section .title.scroll.scrollAction + p,
 .promotion ul li.scroll.scrollAction .imgWrap { animation: showSide 1.5s forwards; }
 @keyframes showSide { 100% { transform: translateX(0); opacity: 1 } }
 
-@media (min-width: 768px) {
-    /* 레이아웃 */
-    .chageOrder { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-pack: center; -webkit-box-pack: center; justify-content: center; -ms-flex-align: center; -webkit-box-align: center; align-items: center; }
-    .chageOrder > *:first-child { order: 1; }
-
-    /* footer */
-    footer .layoutCenter { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-pack: justify; -webkit-box-pack: justify; justify-content: space-between; -ms-flex-align: end; -webkit-box-align: end; align-items: flex-end; }
-}
 @media (max-width: 1200px) and (min-width: 768px){
     /* 레이아웃 */
     .layoutCenter { max-width: auto; padding-left: 20px; padding-right: 20px; }

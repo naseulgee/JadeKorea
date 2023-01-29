@@ -1,23 +1,52 @@
-<!--@layout(/pList/jk/import/layout.html)-->
-<section class="contact layoutCenter">
-    <h2 class="title">CONTACT</h2>
-    <div class="mapWrap">
-        <div id="daumRoughmapContainer1651825543258" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-        <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
-        <script charset="UTF-8">
-            new daum.roughmap.Lander({
-                "timestamp" : "1651825543258",
-                "key" : "2a5hi",
-                "mapWidth" : "100%",
-                "mapHeight" : "360"
-            }).render();
-        </script>
-        <ul class="contactInfo">
-            <li><img src="/pList/jk/logo_k.jpg" alt="제이드코리아"></li>
-            <li><dl><dt>ADDRESS</dt><dd>서울시 종로구 자하문로 33길61 B 101</dd></dl></li>
-            <li><dl><dt>MAIL</dt><dd><a href="mailto:Jadekorea5@naver.com">Jadekorea5@naver.com</a></dd></dl></li>
-            <li><dl><dt>TEL</dt><dd><a href="tel:02-722-7221">02. 722. 7221</a></dd></dl></li>
-            <li><dl><dt>HP</dt><dd><a href="tel:010-2226-7221">010. 2226. 7221</a></dd></dl></li>
-        </ul>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!--인코딩 설정-->
+    <meta name="content-language" content="kr"><!--기록된 언어-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--ie를 최신 코드로 적용-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"><!--화면 배율-->
+    <title>제이드 코리아</title>
+    <!-- 캐쉬 파기 시간: 캐쉬가 쌓이지 않고 매번 새로운 페이지 로딩 세팅 -->
+    <meta http-equiv="Cache-Control" content="no-cache"/> 
+    <meta http-equiv="Expires" content="-1"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+
+    <script src="./js/scroll_header.js"></script>
+    <script src="./js/common.js"></script>
+</head>
+<body id="main" class="bgSubColor">
+    <include data-href="./include/header.html"></include>
+
+    <main id="contents">
+        <section class="contact layoutCenter">
+            <h2 class="title">CONTACT</h2>
+            <div class="mapWrap">
+                <div id="daumRoughmapContainer1651825543258" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                <script charset="UTF-8">
+                    new daum.roughmap.Lander({
+                        "timestamp" : "1651825543258",
+                        "key" : "2a5hi",
+                        "mapWidth" : "100%",
+                        "mapHeight" : "360"
+                    }).render();
+                </script>
+                <ul class="contactInfo">
+                    <li><img src="./images/logo_k.jpg" alt="제이드코리아"></li>
+                    <li><dl><dt>ADDRESS</dt><dd>서울시 종로구 자하문로 33길61 B 101</dd></dl></li>
+                    <li><dl><dt>MAIL</dt><dd><a href="mailto:Jadekorea5@naver.com">Jadekorea5@naver.com</a></dd></dl></li>
+                    <li><dl><dt>TEL</dt><dd><a href="tel:02-722-7221">02. 722. 7221</a></dd></dl></li>
+                    <li><dl><dt>HP</dt><dd><a href="tel:010-2226-7221">010. 2226. 7221</a></dd></dl></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <include data-href="./include/footer.html"></include>
+</body>
+</html>
